@@ -26,7 +26,7 @@
           title: '勋章列表',
         }).state('management.medalOperationList.modify', {
           url: '/modify/:id',
-          templateUrl: 'app/pages/management/medalOperationList/medalOperationList2.html',
+          templateUrl: 'app/pages/management/medalOperationList/medalOperationModify.html',
           controller:'medalOperationListDetailCtrl',
           controllerAs:'detailCtrl',
           title: '勋章信息修改',
