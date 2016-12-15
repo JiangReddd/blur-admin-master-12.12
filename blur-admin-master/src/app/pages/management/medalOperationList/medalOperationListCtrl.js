@@ -16,483 +16,483 @@
     $scope.smartTableData = [
       {
         id: 1,
-        firstName: 'Mark',
-        lastName: 'Otto',
-        username: '@mdo',
-        email: 'mdo@gmail.com',
-        age: '28'
+        medalName: '笔杆子',
+        type: 'Otto',
+        intro: '@mdo',
+        priority: 'mdo@gmail.com',
+        available: '28'
       },
       {
         id: 2,
-        firstName: 'Jacob',
-        lastName: 'Thornton',
-        username: '@fat',
-        email: 'fat@yandex.ru',
-        age: '45'
+        medalName: '金手指',
+        type: 'Thornton',
+        intro: '@fat',
+        priority: 'fat@yandex.ru',
+        available: '45'
       },
       {
         id: 3,
-        firstName: 'Larry',
-        lastName: 'Bird',
-        username: '@twitter',
-        email: 'twitter@outlook.com',
-        age: '18'
+        medalName: 'Larry',
+        type: 'Bird',
+        intro: '@twitter',
+        priority: 'twitter@outlook.com',
+        available: '18'
       },
       {
         id: 4,
-        firstName: 'John',
-        lastName: 'Snow',
-        username: '@snow',
-        email: 'snow@gmail.com',
-        age: '20'
+        medalName: 'John',
+        type: 'Snow',
+        intro: '@snow',
+        priority: 'snow@gmail.com',
+        available: '20'
       },
       {
         id: 5,
-        firstName: 'Jack',
-        lastName: 'Sparrow',
-        username: '@jack',
-        email: 'jack@yandex.ru',
-        age: '30'
+        medalName: 'Jack',
+        type: 'Sparrow',
+        intro: '@jack',
+        priority: 'jack@yandex.ru',
+        available: '30'
       },
       {
         id: 6,
-        firstName: 'Ann',
-        lastName: 'Smith',
-        username: '@ann',
-        email: 'ann@gmail.com',
-        age: '21'
+        medalName: 'Ann',
+        type: 'Smith',
+        intro: '@ann',
+        priority: 'ann@gmail.com',
+        available: '21'
       },
       {
         id: 7,
-        firstName: 'Barbara',
-        lastName: 'Black',
-        username: '@barbara',
-        email: 'barbara@yandex.ru',
-        age: '43'
+        medalName: 'Barbara',
+        type: 'Black',
+        intro: '@barbara',
+        priority: 'barbara@yandex.ru',
+        available: '43'
       },
       {
         id: 8,
-        firstName: 'Sevan',
-        lastName: 'Bagrat',
-        username: '@sevan',
-        email: 'sevan@outlook.com',
-        age: '13'
+        medalName: 'Sevan',
+        type: 'Bagrat',
+        intro: '@sevan',
+        priority: 'sevan@outlook.com',
+        available: '13'
       },
       {
         id: 9,
-        firstName: 'Ruben',
-        lastName: 'Vardan',
-        username: '@ruben',
-        email: 'ruben@gmail.com',
-        age: '22'
+        medalName: 'Ruben',
+        type: 'Vardan',
+        intro: '@ruben',
+        priority: 'ruben@gmail.com',
+        available: '22'
       },
       {
         id: 10,
-        firstName: 'Karen',
-        lastName: 'Sevan',
-        username: '@karen',
-        email: 'karen@yandex.ru',
-        age: '33'
+        medalName: 'Karen',
+        type: 'Sevan',
+        intro: '@karen',
+        priority: 'karen@yandex.ru',
+        available: '33'
       },
       {
         id: 11,
-        firstName: 'Mark',
-        lastName: 'Otto',
-        username: '@mark',
-        email: 'mark@gmail.com',
-        age: '38'
+        medalName: 'Mark',
+        type: 'Otto',
+        intro: '@mark',
+        priority: 'mark@gmail.com',
+        available: '38'
       },
       {
         id: 12,
-        firstName: 'Jacob',
-        lastName: 'Thornton',
-        username: '@jacob',
-        email: 'jacob@yandex.ru',
-        age: '48'
+        medalName: 'Jacob',
+        type: 'Thornton',
+        intro: '@jacob',
+        priority: 'jacob@yandex.ru',
+        available: '48'
       },
       {
         id: 13,
-        firstName: 'Haik',
-        lastName: 'Hakob',
-        username: '@haik',
-        email: 'haik@outlook.com',
-        age: '48'
+        medalName: 'Haik',
+        type: 'Hakob',
+        intro: '@haik',
+        priority: 'haik@outlook.com',
+        available: '48'
       },
       {
         id: 14,
-        firstName: 'Garegin',
-        lastName: 'Jirair',
-        username: '@garegin',
-        email: 'garegin@gmail.com',
-        age: '40'
+        medalName: 'Garegin',
+        type: 'Jirair',
+        intro: '@garegin',
+        priority: 'garegin@gmail.com',
+        available: '40'
       },
       {
         id: 15,
-        firstName: 'Krikor',
-        lastName: 'Bedros',
-        username: '@krikor',
-        email: 'krikor@yandex.ru',
-        age: '32'
+        medalName: 'Krikor',
+        type: 'Bedros',
+        intro: '@krikor',
+        priority: 'krikor@yandex.ru',
+        available: '32'
       },
       {
         "id": 16,
-        "firstName": "Francisca",
-        "lastName": "Brady",
-        "username": "@Gibson",
-        "email": "franciscagibson@comtours.com",
-        "age": 11
+        "medalName": "Francisca",
+        "type": "Brady",
+        "intro": "@Gibson",
+        "priority": "franciscagibson@comtours.com",
+        "available": 11
       },
       {
         "id": 17,
-        "firstName": "Tillman",
-        "lastName": "Figueroa",
-        "username": "@Snow",
-        "email": "tillmansnow@comtours.com",
-        "age": 34
+        "medalName": "Tillman",
+        "type": "Figueroa",
+        "intro": "@Snow",
+        "priority": "tillmansnow@comtours.com",
+        "available": 34
       },
       {
         "id": 18,
-        "firstName": "Jimenez",
-        "lastName": "Morris",
-        "username": "@Bryant",
-        "email": "jimenezbryant@comtours.com",
-        "age": 45
+        "medalName": "Jimenez",
+        "type": "Morris",
+        "intro": "@Bryant",
+        "priority": "jimenezbryant@comtours.com",
+        "available": 45
       },
       {
         "id": 19,
-        "firstName": "Sandoval",
-        "lastName": "Jacobson",
-        "username": "@Mcbride",
-        "email": "sandovalmcbride@comtours.com",
-        "age": 32
+        "medalName": "Sandoval",
+        "type": "Jacobson",
+        "intro": "@Mcbride",
+        "priority": "sandovalmcbride@comtours.com",
+        "available": 32
       },
       {
         "id": 20,
-        "firstName": "Griffin",
-        "lastName": "Torres",
-        "username": "@Charles",
-        "email": "griffincharles@comtours.com",
-        "age": 19
+        "medalName": "Griffin",
+        "type": "Torres",
+        "intro": "@Charles",
+        "priority": "griffincharles@comtours.com",
+        "available": 19
       },
       {
         "id": 21,
-        "firstName": "Cora",
-        "lastName": "Parker",
-        "username": "@Caldwell",
-        "email": "coracaldwell@comtours.com",
-        "age": 27
+        "medalName": "Cora",
+        "type": "Parker",
+        "intro": "@Caldwell",
+        "priority": "coracaldwell@comtours.com",
+        "available": 27
       },
       {
         "id": 22,
-        "firstName": "Cindy",
-        "lastName": "Bond",
-        "username": "@Velez",
-        "email": "cindyvelez@comtours.com",
-        "age": 24
+        "medalName": "Cindy",
+        "type": "Bond",
+        "intro": "@Velez",
+        "priority": "cindyvelez@comtours.com",
+        "available": 24
       },
       {
         "id": 23,
-        "firstName": "Frieda",
-        "lastName": "Tyson",
-        "username": "@Craig",
-        "email": "friedacraig@comtours.com",
-        "age": 45
+        "medalName": "Frieda",
+        "type": "Tyson",
+        "intro": "@Craig",
+        "priority": "friedacraig@comtours.com",
+        "available": 45
       },
       {
         "id": 24,
-        "firstName": "Cote",
-        "lastName": "Holcomb",
-        "username": "@Rowe",
-        "email": "coterowe@comtours.com",
-        "age": 20
+        "medalName": "Cote",
+        "type": "Holcomb",
+        "intro": "@Rowe",
+        "priority": "coterowe@comtours.com",
+        "available": 20
       },
       {
         "id": 25,
-        "firstName": "Trujillo",
-        "lastName": "Mejia",
-        "username": "@Valenzuela",
-        "email": "trujillovalenzuela@comtours.com",
-        "age": 16
+        "medalName": "Trujillo",
+        "type": "Mejia",
+        "intro": "@Valenzuela",
+        "priority": "trujillovalenzuela@comtours.com",
+        "available": 16
       },
       {
         "id": 26,
-        "firstName": "Pruitt",
-        "lastName": "Shepard",
-        "username": "@Sloan",
-        "email": "pruittsloan@comtours.com",
-        "age": 44
+        "medalName": "Pruitt",
+        "type": "Shepard",
+        "intro": "@Sloan",
+        "priority": "pruittsloan@comtours.com",
+        "available": 44
       },
       {
         "id": 27,
-        "firstName": "Sutton",
-        "lastName": "Ortega",
-        "username": "@Black",
-        "email": "suttonblack@comtours.com",
-        "age": 42
+        "medalName": "Sutton",
+        "type": "Ortega",
+        "intro": "@Black",
+        "priority": "suttonblack@comtours.com",
+        "available": 42
       },
       {
         "id": 28,
-        "firstName": "Marion",
-        "lastName": "Heath",
-        "username": "@Espinoza",
-        "email": "marionespinoza@comtours.com",
-        "age": 47
+        "medalName": "Marion",
+        "type": "Heath",
+        "intro": "@Espinoza",
+        "priority": "marionespinoza@comtours.com",
+        "available": 47
       },
       {
         "id": 29,
-        "firstName": "Newman",
-        "lastName": "Hicks",
-        "username": "@Keith",
-        "email": "newmankeith@comtours.com",
-        "age": 15
+        "medalName": "Newman",
+        "type": "Hicks",
+        "intro": "@Keith",
+        "priority": "newmankeith@comtours.com",
+        "available": 15
       },
       {
         "id": 30,
-        "firstName": "Boyle",
-        "lastName": "Larson",
-        "username": "@Summers",
-        "email": "boylesummers@comtours.com",
-        "age": 32
+        "medalName": "Boyle",
+        "type": "Larson",
+        "intro": "@Summers",
+        "priority": "boylesummers@comtours.com",
+        "available": 32
       },
       {
         "id": 31,
-        "firstName": "Haynes",
-        "lastName": "Vinson",
-        "username": "@Mckenzie",
-        "email": "haynesmckenzie@comtours.com",
-        "age": 15
+        "medalName": "Haynes",
+        "type": "Vinson",
+        "intro": "@Mckenzie",
+        "priority": "haynesmckenzie@comtours.com",
+        "available": 15
       },
       {
         "id": 32,
-        "firstName": "Miller",
-        "lastName": "Acosta",
-        "username": "@Young",
-        "email": "milleryoung@comtours.com",
-        "age": 55
+        "medalName": "Miller",
+        "type": "Acosta",
+        "intro": "@Young",
+        "priority": "milleryoung@comtours.com",
+        "available": 55
       },
       {
         "id": 33,
-        "firstName": "Johnston",
-        "lastName": "Brown",
-        "username": "@Knight",
-        "email": "johnstonknight@comtours.com",
-        "age": 29
+        "medalName": "Johnston",
+        "type": "Brown",
+        "intro": "@Knight",
+        "priority": "johnstonknight@comtours.com",
+        "available": 29
       },
       {
         "id": 34,
-        "firstName": "Lena",
-        "lastName": "Pitts",
-        "username": "@Forbes",
-        "email": "lenaforbes@comtours.com",
-        "age": 25
+        "medalName": "Lena",
+        "type": "Pitts",
+        "intro": "@Forbes",
+        "priority": "lenaforbes@comtours.com",
+        "available": 25
       },
       {
         "id": 35,
-        "firstName": "Terrie",
-        "lastName": "Kennedy",
-        "username": "@Branch",
-        "email": "terriebranch@comtours.com",
-        "age": 37
+        "medalName": "Terrie",
+        "type": "Kennedy",
+        "intro": "@Branch",
+        "priority": "terriebranch@comtours.com",
+        "available": 37
       },
       {
         "id": 36,
-        "firstName": "Louise",
-        "lastName": "Aguirre",
-        "username": "@Kirby",
-        "email": "louisekirby@comtours.com",
-        "age": 44
+        "medalName": "Louise",
+        "type": "Aguirre",
+        "intro": "@Kirby",
+        "priority": "louisekirby@comtours.com",
+        "available": 44
       },
       {
         "id": 37,
-        "firstName": "David",
-        "lastName": "Patton",
-        "username": "@Sanders",
-        "email": "davidsanders@comtours.com",
-        "age": 26
+        "medalName": "David",
+        "type": "Patton",
+        "intro": "@Sanders",
+        "priority": "davidsanders@comtours.com",
+        "available": 26
       },
       {
         "id": 38,
-        "firstName": "Holden",
-        "lastName": "Barlow",
-        "username": "@Mckinney",
-        "email": "holdenmckinney@comtours.com",
-        "age": 11
+        "medalName": "Holden",
+        "type": "Barlow",
+        "intro": "@Mckinney",
+        "priority": "holdenmckinney@comtours.com",
+        "available": 11
       },
       {
         "id": 39,
-        "firstName": "Baker",
-        "lastName": "Rivera",
-        "username": "@Montoya",
-        "email": "bakermontoya@comtours.com",
-        "age": 47
+        "medalName": "Baker",
+        "type": "Rivera",
+        "intro": "@Montoya",
+        "priority": "bakermontoya@comtours.com",
+        "available": 47
       },
       {
         "id": 40,
-        "firstName": "Belinda",
-        "lastName": "Lloyd",
-        "username": "@Calderon",
-        "email": "belindacalderon@comtours.com",
-        "age": 21
+        "medalName": "Belinda",
+        "type": "Lloyd",
+        "intro": "@Calderon",
+        "priority": "belindacalderon@comtours.com",
+        "available": 21
       },
       {
         "id": 41,
-        "firstName": "Pearson",
-        "lastName": "Patrick",
-        "username": "@Clements",
-        "email": "pearsonclements@comtours.com",
-        "age": 42
+        "medalName": "Pearson",
+        "type": "Patrick",
+        "intro": "@Clements",
+        "priority": "pearsonclements@comtours.com",
+        "available": 42
       },
       {
         "id": 42,
-        "firstName": "Alyce",
-        "lastName": "Mckee",
-        "username": "@Daugherty",
-        "email": "alycedaugherty@comtours.com",
-        "age": 55
+        "medalName": "Alyce",
+        "type": "Mckee",
+        "intro": "@Daugherty",
+        "priority": "alycedaugherty@comtours.com",
+        "available": 55
       },
-      {
+     {
         "id": 43,
-        "firstName": "Valencia",
-        "lastName": "Spence",
-        "username": "@Olsen",
-        "email": "valenciaolsen@comtours.com",
-        "age": 20
+        "medalName": "Valencia",
+        "type": "Spence",
+        "intro": "@Olsen",
+        "priority": "valenciaolsen@comtours.com",
+        "available": 20
       },
       {
         "id": 44,
-        "firstName": "Leach",
-        "lastName": "Holcomb",
-        "username": "@Humphrey",
-        "email": "leachhumphrey@comtours.com",
-        "age": 28
+        "medalName": "Leach",
+        "type": "Holcomb",
+        "intro": "@Humphrey",
+        "priority": "leachhumphrey@comtours.com",
+        "available": 28
       },
       {
         "id": 45,
-        "firstName": "Moss",
-        "lastName": "Baxter",
-        "username": "@Fitzpatrick",
-        "email": "mossfitzpatrick@comtours.com",
-        "age": 51
+        "medalName": "Moss",
+        "type": "Baxter",
+        "intro": "@Fitzpatrick",
+        "priority": "mossfitzpatrick@comtours.com",
+        "available": 51
       },
       {
         "id": 46,
-        "firstName": "Jeanne",
-        "lastName": "Cooke",
-        "username": "@Ward",
-        "email": "jeanneward@comtours.com",
-        "age": 59
+        "medalName": "Jeanne",
+        "type": "Cooke",
+        "intro": "@Ward",
+        "priority": "jeanneward@comtours.com",
+        "available": 59
       },
       {
         "id": 47,
-        "firstName": "Wilma",
-        "lastName": "Briggs",
-        "username": "@Kidd",
-        "email": "wilmakidd@comtours.com",
-        "age": 53
+        "medalName": "Wilma",
+        "type": "Briggs",
+        "intro": "@Kidd",
+        "priority": "wilmakidd@comtours.com",
+        "available": 53
       },
       {
         "id": 48,
-        "firstName": "Beatrice",
-        "lastName": "Perry",
-        "username": "@Gilbert",
-        "email": "beatricegilbert@comtours.com",
-        "age": 39
+        "medalName": "Beatrice",
+        "type": "Perry",
+        "intro": "@Gilbert",
+        "priority": "beatricegilbert@comtours.com",
+        "available": 39
       },
       {
         "id": 49,
-        "firstName": "Whitaker",
-        "lastName": "Hyde",
-        "username": "@Mcdonald",
-        "email": "whitakermcdonald@comtours.com",
-        "age": 35
+        "medalName": "Whitaker",
+        "type": "Hyde",
+        "intro": "@Mcdonald",
+        "priority": "whitakermcdonald@comtours.com",
+        "available": 35
       },
       {
         "id": 50,
-        "firstName": "Rebekah",
-        "lastName": "Duran",
-        "username": "@Gross",
-        "email": "rebekahgross@comtours.com",
-        "age": 40
+        "medalName": "Rebekah",
+        "type": "Duran",
+        "intro": "@Gross",
+        "priority": "rebekahgross@comtours.com",
+        "available": 40
       },
       {
         "id": 51,
-        "firstName": "Earline",
-        "lastName": "Mayer",
-        "username": "@Woodward",
-        "email": "earlinewoodward@comtours.com",
-        "age": 52
+        "medalName": "Earline",
+        "type": "Mayer",
+        "intro": "@Woodward",
+        "priority": "earlinewoodward@comtours.com",
+        "available": 52
       },
       {
         "id": 52,
-        "firstName": "Moran",
-        "lastName": "Baxter",
-        "username": "@Johns",
-        "email": "moranjohns@comtours.com",
-        "age": 20
+        "medalName": "Moran",
+        "type": "Baxter",
+        "intro": "@Johns",
+        "priority": "moranjohns@comtours.com",
+        "available": 20
       },
       {
         "id": 53,
-        "firstName": "Nanette",
-        "lastName": "Hubbard",
-        "username": "@Cooke",
-        "email": "nanettecooke@comtours.com",
-        "age": 55
+        "medalName": "Nanette",
+        "type": "Hubbard",
+        "intro": "@Cooke",
+        "priority": "nanettecooke@comtours.com",
+        "available": 55
       },
       {
         "id": 54,
-        "firstName": "Dalton",
-        "lastName": "Walker",
-        "username": "@Hendricks",
-        "email": "daltonhendricks@comtours.com",
-        "age": 25
+        "medalName": "Dalton",
+        "type": "Walker",
+        "intro": "@Hendricks",
+        "priority": "daltonhendricks@comtours.com",
+        "available": 25
       },
       {
         "id": 55,
-        "firstName": "Bennett",
-        "lastName": "Blake",
-        "username": "@Pena",
-        "email": "bennettpena@comtours.com",
-        "age": 13
+        "medalName": "Bennett",
+        "type": "Blake",
+        "intro": "@Pena",
+        "priority": "bennettpena@comtours.com",
+        "available": 13
       },
       {
         "id": 56,
-        "firstName": "Kellie",
-        "lastName": "Horton",
-        "username": "@Weiss",
-        "email": "kellieweiss@comtours.com",
-        "age": 48
+        "medalName": "Kellie",
+        "type": "Horton",
+        "intro": "@Weiss",
+        "priority": "kellieweiss@comtours.com",
+        "available": 48
       },
       {
         "id": 57,
-        "firstName": "Hobbs",
-        "lastName": "Talley",
-        "username": "@Sanford",
-        "email": "hobbssanford@comtours.com",
-        "age": 28
+        "medalName": "Hobbs",
+        "type": "Talley",
+        "intro": "@Sanford",
+        "priority": "hobbssanford@comtours.com",
+        "available": 28
       },
       {
         "id": 58,
-        "firstName": "Mcguire",
-        "lastName": "Donaldson",
-        "username": "@Roman",
-        "email": "mcguireroman@comtours.com",
-        "age": 38
+        "medalName": "Mcguire",
+        "type": "Donaldson",
+        "intro": "@Roman",
+        "priority": "mcguireroman@comtours.com",
+        "available": 38
       },
       {
         "id": 59,
-        "firstName": "Rodriquez",
-        "lastName": "Saunders",
-        "username": "@Harper",
-        "email": "rodriquezharper@comtours.com",
-        "age": 20
+        "medalName": "Rodriquez",
+        "type": "Saunders",
+        "intro": "@Harper",
+        "priority": "rodriquezharper@comtours.com",
+        "available": 20
       },
       {
         "id": 60,
-        "firstName": "Lou",
-        "lastName": "Conner",
-        "username": "@Sanchez",
-        "email": "lousanchez@comtours.com",
-        "age": 16
+        "medalName": "Lou",
+        "type": "Conner",
+        "intro": "@Sanchez",
+        "priority": "lousanchez@comtours.com",
+        "available": 16
       }
     ];
 
@@ -501,46 +501,46 @@
     $scope.peopleTableData = [
       {
         id: 1,
-        firstName: 'Mark',
-        lastName: 'Otto',
-        username: '@mdo',
-        email: 'mdo@gmail.com',
+        medalName: 'Mark',
+        type: 'Otto',
+        intro: '@mdo',
+        priority: 'mdo@gmail.com',
         age: '28',
         status: 'info'
       },
       {
         id: 2,
-        firstName: 'Jacob',
-        lastName: 'Thornton',
-        username: '@fat',
-        email: 'fat@yandex.ru',
+        medalName: 'Jacob',
+        type: 'Thornton',
+        intro: '@fat',
+        priority: 'fat@yandex.ru',
         age: '45',
         status: 'primary'
       },
       {
         id: 3,
-        firstName: 'Larry',
-        lastName: 'Bird',
-        username: '@twitter',
-        email: 'twitter@outlook.com',
+        medalName: 'Larry',
+        type: 'Bird',
+        intro: '@twitter',
+        priority: 'twitter@outlook.com',
         age: '18',
         status: 'success'
       },
       {
         id: 4,
-        firstName: 'John',
-        lastName: 'Snow',
-        username: '@snow',
-        email: 'snow@gmail.com',
+        medalName: 'John',
+        type: 'Snow',
+        intro: '@snow',
+        priority: 'snow@gmail.com',
         age: '20',
         status: 'danger'
       },
       {
         id: 5,
-        firstName: 'Jack',
-        lastName: 'Sparrow',
-        username: '@jack',
-        email: 'jack@yandex.ru',
+        medalName: 'Jack',
+        type: 'Sparrow',
+        intro: '@jack',
+        priority: 'jack@yandex.ru',
         age: '30',
         status: 'warning'
       }

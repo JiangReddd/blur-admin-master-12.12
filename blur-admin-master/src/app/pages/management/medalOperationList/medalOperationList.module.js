@@ -23,13 +23,13 @@
           url: '/list',
           templateUrl: 'app/pages/management/medalOperationList/medalOperationList1.html',
           controller:'medalOperationListCtrl',
-          title: '综合排行榜 - 个人排行榜',
+          title: '勋章列表',
         }).state('management.medalOperationList.modify', {
-          url: '/modify/:id/:age',
+          url: '/modify/:id',
           templateUrl: 'app/pages/management/medalOperationList/medalOperationList2.html',
           controller:'medalOperationListDetailCtrl',
           controllerAs:'detailCtrl',
-          title: '综合排行榜 - 个人排行榜',
+          title: '勋章信息修改',
         });
     $urlRouterProvider.when('/management/medalOperationList','/management/medalOperationList/list');
   }

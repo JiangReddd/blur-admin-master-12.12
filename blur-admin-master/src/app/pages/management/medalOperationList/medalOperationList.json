@@ -1,18 +1,18 @@
 [
       {
         "id": "1",
-        "firstName": "Mark",
-        "lastName": "Otto",
-        "username": "@mdo",
-        "email": "mdo@gmail.com",
-        "age": "28"
+        "medalName": "笔杆子",
+        "type": "Otto",
+        "intro": "@mdo",
+        "priority": "5",
+        "available": "启用"
       },
       {
         "id": "2",
-        "firstName": "Jacob",
-        "lastName": "Thornton",
-        "username": "@fat",
-        "email": "fat@yandex.ru",
-        "age": "45"
+        "medalName": "金手指",
+        "type": "Thornton",
+        "intro": "@fat",
+        "priority": "4",
+        "available": "停用"
       }
     ]

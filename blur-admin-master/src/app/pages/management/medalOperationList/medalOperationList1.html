@@ -2,57 +2,60 @@
 
   <div class="row">
     <div class="col-md-12">
-      <div ba-panel ba-panel-title="Smart Table With Filtering, Sorting And Pagination" ba-panel-class="with-scroll">
+      <div ba-panel ba-panel-title="勋章" ba-panel-class="with-scroll">
         <div class="horizontal-scroll">
-          <div class="form-group select-page-size-wrap ">
-            <label>Rows on page
-              <select class="form-control selectpicker show-tick" title="Rows on page" selectpicker
-                      ng-model="smartTablePageSize" ng-options="i for i in [5,10,15,20,25]">
-              </select>
-            </label>
-          </div>
           <table class="table" st-table="smartTableData">
             <thead>
             <tr class="sortable ">
               <th class="table-id" st-sort="id" st-sort-default="true">#</th>
-              <th st-sort="firstName">First Name</th>
-              <th st-sort="lastName">Last Name</th>
-              <th st-sort="username">Username</th>
-              <th st-sort="email">Email</th>
-              <th st-sort="age">Age</th>
+              <th st-sort="medalName">勋章名称</th>
+              <th st-sort="type">勋章类型</th>
+              <th st-sort="intro">介绍</th>
+              <th st-sort="priority">优先级</th>
+              <th st-sort="available">是否启用</th>
+              <th st-sort="">操作</th>
             </tr>
             <tr>
               <th></th>
-              <th><input st-search="firstName" placeholder="Search First Name" class="input-sm form-control search-input"
+              <th><input st-search="medalName" placeholder="Search medalName" class="input-sm form-control search-input"
                          type="search"/></th>
-              <th><input st-search="lastName" placeholder="Search Last Name" class="input-sm form-control search-input"
+              <th><input st-search="type" placeholder="Search Type" class="input-sm form-control search-input"
                          type="search"/></th>
-              <th><input st-search="username" placeholder="Search Username" class="input-sm form-control search-input"
+              <th><input st-search="intro" placeholder="Search Intro" class="input-sm form-control search-input"
                          type="search"/></th>
-              <th><input st-search="email" placeholder="Search Email" class="input-sm form-control search-input" type="search"/>
+              <th><input st-search="priority" placeholder="Search Priority" class="input-sm form-control search-input" type="search"/>
               </th>
-              <th><input st-search="age" placeholder="Search Age" class="input-sm form-control search-input" type="search"/>
+              <th><input st-search="available" placeholder="Search Available" class="input-sm form-control search-input" type="search"/>
               </th>
+              <th></th>
             </tr>
             </thead>
             <tbody>
             <tr ng-repeat="item in smartTableData">
-              <td class="table-id" ui-sref="management.medalOperationList.modify({id: item.id,age: item.age})">{{item.id}}</td>
-              <td>{{item.firstName}}</td>
-              <td>{{item.lastName}}</td>
-              <td>{{item.username}}</td>
-              <td><a class="email-link" ng-href="mailto:{{item.email}}">{{item.email}}</a></td>
-              <td>{{item.age}}</td>
+              <td class="table-id">{{item.id}}</td>
+              <td>{{item.medalName}}</td>
+              <td>{{item.type}}</td>
+              <td>{{item.intro}}</td>
+              <td>{{item.priority}}</td>
+              <td>{{item.available}}</td>
+              <td><a ui-sref="management.medalOperationList.modify({id: item.id})">修改</a></td>
             </tr>
             </tbody>
             <tfoot>
             <tr>
-              <td colspan="6" class="text-center">
+              <td colspan="7" class="text-center">
                 <div st-pagination="" st-items-by-page="smartTablePageSize" st-displayed-pages="5"></div>
               </td>
             </tr>
             </tfoot>
           </table>
+          <div class="form-group select-page-size-wrap ">
+            <label>行/页
+              <select class="form-control selectpicker show-tick" title="Rows on page" selectpicker
+                      ng-model="smartTablePageSize" ng-options="i for i in [5,10,15,20,25]">
+              </select>
+            </label>
+          </div>
         </div>
       </div>
     </div>
