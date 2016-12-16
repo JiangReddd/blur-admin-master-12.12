@@ -43,10 +43,35 @@ gulp.task('inject', ['scripts', 'styles', 'injectAuth', 'inject404', 'copyVendor
 });
 
 gulp.task('injectAuth', ['stylesAuth'], function () {
-  return injectAlone({
+  var options={
     css: [path.join('!' + conf.paths.tmp, '/serve/app/vendor.css'), path.join(conf.paths.tmp, '/serve/app/auth.css')],
     paths: [path.join(conf.paths.src, '/auth.html'), path.join(conf.paths.src, '/reg.html')]
-  })
+  };
+
+    var injectStyles = gulp.src(
+    options.css
+    , {read: false});
+
+  var injectOptions = {
+    ignorePath: [conf.paths.src, path.join(conf.paths.tmp, '/serve')],
+    addRootSlash: false
+  };
+
+  var injectScripts = gulp.src([
+    path.join(conf.paths.src, '/assets/js/**/*.js'),
+
+    path.join(conf.paths.src, '/loginAdmin/**/*.module.js'),
+    path.join(conf.paths.src, '/loginAdmin/**/*.js'),
+
+  ])
+    /*.pipe($.angularFilesort())*/.on('error', conf.errorHandler('AngularFilesort'));
+
+
+  return gulp.src(path.join(conf.paths.src, '/auth.html'))
+    .pipe($.inject(injectStyles, injectOptions))
+    .pipe($.inject(injectScripts, injectOptions))
+    .pipe(wiredep(_.extend({}, conf.wiredep)))
+    .pipe(gulp.dest(path.join(conf.paths.tmp, '/serve')));
 });
 
 gulp.task('inject404', ['styles404'], function () {

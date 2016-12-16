@@ -25,8 +25,8 @@
   <!-- endbuild -->
 </head>
 <body>
-<main class="auth-main">
-  <div class="auth-block">
+<main class="auth-main"  ng-app="loginAdmin">
+  <div class="auth-block" ng-controller="test">
     <h1>勋章积分系统</h1>
     <a href="reg.html" class="auth-link">第一次来吗？那就赶紧注册吧！</a>
 
@@ -35,23 +35,24 @@
         <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
 
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="inputEmail3" placeholder="用户名">
+          <input type="text" class="form-control" id="username" placeholder="用户名" ng-model="credentials.username">
         </div>
       </div>
       <div class="form-group">
         <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
 
         <div class="col-sm-10">
-          <input type="password" class="form-control" id="inputPassword3" placeholder="密码">
+          <input type="password" class="form-control" id="password" placeholder="密码" ng-model="credentials.password">
         </div>
       </div>
       <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-default btn-auth">登录</button>
+          <button class="btn btn-default btn-auth" ng-click="login()">登录</button>
           <!-- <a href class="forgot-pass">Forgot password?</a> -->
         </div>
       </div>
     </form>
+
 
 <!--     <div class="auth-sep"><span><span>or Sign in with one click</span></span></div>
 
@@ -64,5 +65,21 @@
     </div> -->
   </div>
 </main>
+  <!-- build:js(src) scripts/vendor.js -->
+  <!-- bower:js -->
+  <!-- run `gulp inject` to automatically populate bower script dependencies -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+  <!-- inject:js -->
+  <!-- js files will be automatically insert here -->
+  <!-- endinject -->
+
+  <!-- inject:partials -->
+  <!-- angular templates will be automatically converted in js and inserted here -->
+  <!-- endinject -->
+  <!-- endbuild -->
+
 </body>
 </html>
